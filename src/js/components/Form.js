@@ -23,7 +23,7 @@ class ConnectedForm extends Component {
   }
 
   handleChange(event) {
-    this.setState({ [event.target.id]: event.target.value });
+    this.setState({ [event.target.title]: event.target.value });
   }
 
   handleSubmit(event) {
